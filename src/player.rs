@@ -1,0 +1,31 @@
+use serde::{Deserialize, Serialize};
+
+#[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct Player {
+    pub player_id: Option<u32>,
+    pub first_name: Option<String>,
+    pub last_name: Option<String>,
+    pub name: Option<String>,
+    pub last_season: Option<u32>,
+    pub current_club_id: Option<u32>,
+    pub player_code: Option<String>,
+    pub country_of_birth: Option<String>,
+    pub city_of_birth: Option<String>,
+    pub country_of_citizenship: Option<String>,
+    pub date_of_birth: Option<String>,
+    pub sub_position: Option<String>,
+    pub position: Option<String>,
+    pub foot: Option<String>,
+    pub height_in_cm: Option<u32>,
+    pub contract_expiration_date: Option<String>,
+    pub agent_name: Option<String>,
+    pub image_url: Option<String>,
+    pub international_caps: Option<u32>,
+    pub international_goals: Option<u32>,
+    pub current_national_team_id: Option<u32>,
+    pub url: Option<String>,
+    pub current_club_domestic_competition_id: Option<String>,
+    pub current_club_name: Option<String>,
+    pub market_value_in_eur: Option<u32>,
+    pub highest_market_value_in_eur: Option<u32>,
+}
