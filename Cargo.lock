@@ -2179,6 +2179,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom_csv_dataset"
+version = "0.1.0"
+dependencies = [
+ "burn",
+ "burn-dataset",
+ "chrono",
+ "csv",
+ "flate2",
+ "polars",
+ "reqwest 0.13.4",
+ "serde",
+]
+
+[[package]]
 name = "darling"
 version = "0.20.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3964,20 +3978,6 @@ name = "lazy_static"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
-
-[[package]]
-name = "learn_to_get_burnt"
-version = "0.1.0"
-dependencies = [
- "burn",
- "burn-dataset",
- "chrono",
- "csv",
- "flate2",
- "polars",
- "reqwest 0.13.4",
- "serde",
-]
 
 [[package]]
 name = "lebe"

@@ -1,0 +1,14 @@
+[package]
+name = "custom_csv_dataset"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { workspace = true }
+burn-dataset = { workspace = true }
+chrono = { version = "0.4.41", features = ["serde"] }
+csv = "1.4.0"
+polars = { version = "0.53.0", features = ["csv", "temporal"] }
+reqwest = { version = "0.13.4", features = ["blocking"] }
+serde = { version = "1.0.228", features = ["std", "derive"] }
+flate2 = "1.0"
