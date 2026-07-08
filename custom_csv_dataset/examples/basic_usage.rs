@@ -1,5 +1,5 @@
 use burn_dataset::Dataset;
-use learn_to_get_burnt::dataset::PlayersDataset;
+use custom_csv_dataset::dataset::PlayersDataset;
 
 fn main() {
     let dataset = PlayersDataset::new().expect("Could not load players dataset");

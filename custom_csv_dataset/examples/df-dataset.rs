@@ -1,5 +1,5 @@
 use burn_dataset::Dataset;
-use learn_to_get_burnt::dataframe_dataset::PlayerDataframeDataset;
+use custom_csv_dataset::dataframe_dataset::PlayerDataframeDataset;
 
 fn main() {
     let dataset = PlayerDataframeDataset::new()
